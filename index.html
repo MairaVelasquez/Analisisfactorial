@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Analisis factorial</title>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <!--Nav de menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--clases bootstrap-->
+        <div class="container">
+            <a href="#" class="navbar-brand"> <span class="text-primary">Analisis</span>factorial
+            </a><!--Sirve para darle color al ...-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navegation">
+                <span class="navbar-toggler-icon"></span><!--barra hamburguesa-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#quees" class="nav-link">¿Que es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#características" class="nav-link">Caracteristicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tipos" class="nav-link">Tipos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#usos" class="nav-link">Usos</a>
+                    </li> <!-- Componentes Menu-->
+                  
+                </ul>
+            </div>
+        </div>
+
+    </nav><!-- Termina nav de menu-->
+    <!-- Carrusel imagenes, rayitas-->
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3">
+            </button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/home-1.webp" class="d-block w-100"
+                    alt="Imagen de analisis factorial"><!--img carrusel 1-->
+                <div class="carousel-caption">
+                    <h5>ANALISIS FACTORIAL</h5>
+                    <a href="https://www.fuenterrebollo.com/Economicas/ECONOMETRIA/MULTIVARIANTE/FACTORIAL/analisis-factorial.pdf"
+                        class="btn btn-primary mt-3">Mas
+                        informacion</a><!--Mas informacion en carrusel, esta activo-->
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/home-3.jpg" class="d-block w-100" alt="Imagen de analisis factorial"><!--img carrusel 2-->
+                <div class="carousel-caption">
+                    <h5>ANALISIS FACTORIAL</h5>
+
+                    <a href="#" class="btn btn-primary">Mas informacion</a><!--Mas informacion en carrusel-->
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/home-1.webp" class="d-block w-100"
+                    alt="Imagen de analisis factorial"><!--img carrusel 3-->
+                <div class="carousel-caption">
+                    <h5>ANALISIS FACTORIAL</h5>
+                    <a href="#" class="btn btn-primary mt-3">Mas informacion</a><!--Mas informacion en carrusel-->
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--Botones r y l en carrusel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+
+        </button>
+
+    </div><!--Termino de carrusel-->
+
+    <section class="about section-padding" id="quees">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12"><!--clase responsiva-->
+                    <div class="about-img">
+                        <img src="img/about.avif" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h2>ANALISIS FACTORIAL <br> ¿QUE ES?</h2>
+                        <p>El análisis factorial es una técnica estadística que reduce un conjunto de variables al
+                            extraer todos sus puntos en común en un número menor de factores. También se le puede llamar
+                            reducción de datos. <br>
+                            Al observar un gran número de variables, surgen algunos patrones comunes, que se conocen
+                            como factores. Estos sirven como un índice de todas las variables involucradas y pueden
+                            utilizarse para análisis posteriores. <br><br>
+
+                            El análisis factorial utiliza varios supuestos: <br>
+
+                            Las relaciones lineales de las variables <br>
+                            Ausencia de multicolinealidad <br>
+                            Relevancia de las variables <br>
+                            La existencia de una verdadera correlación entre factores y variables <br><br>
+
+                            Por lo tanto, se convierte en una técnica estadística utilizada para ver cómo un grupo
+                            comparte una varianza común. Si bien se usa principalmente en la investigación psicológica,
+                            también se puede aplicar en áreas como el estudio comercial y de mercado para comprender la
+                            satisfacción del cliente o la satisfacción laboral de los empleados y en finanzas, para
+                            estudiar la fluctuación de los precios de las acciones.
+                        </p>
+                        <a href="https://www.tibco.com/es/reference-center/what-is-factor-analysis"
+                            class="btn btn-primary"> Mas informacion</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services section-padding" id="características">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Caracteristicas del analisis factorial</h2>
+                        <p>
+                            Mientras estudia la satisfacción del cliente relacionada con un producto, un investigador
+                            generalmente plantea varias preguntas sobre el producto a través de una encuesta. Estas
+                            preguntas consistirán en variables relacionadas con las características del producto, la
+                            facilidad de compra, la usabilidad, el precio, el atractivo visual, etc. Éstos se
+                            cuantifican típicamente en una escala numérica. Pero, lo que busca un investigador son las
+                            dimensiones subyacentes o "factores" relacionados con la satisfacción del cliente. Estos son
+                            en su mayoría factores psicológicos o emocionales hacia el producto que no se pueden medir
+                            directamente. El análisis factorial utiliza las variables de la encuesta para determinarlas
+                            indirectamente. <br>
+
+                            Cuando un investigador asume estas variables de la encuesta, se condensan en uno o más
+                            factores. Algunos de los métodos utilizados para extraer estos factores podrían incluir:
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title">Análisis de factor común</h3>
+                            <p class="lead">En este método, los factores se extraen de las varianzas que ocurren
+                                comúnmente y no incluyen las varianzas únicas de todas las variables.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-title">Factorización con imágenes</h3>
+                            <p class="lead">Con base en la matriz de correlación, este proceso utiliza variables
+                                predichas mediante el método de regresión OLS. <br>
+                                Una vez extraídos los factores, se supone que la puntuación del cuestionario está
+                                relacionada con los factores de forma lineal. El margen de error también se tiene en
+                                cuenta, junto con todos los factores de la ecuación.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-tv"></i> <!--Cambia icono-->
+                            <h3 class="card-title">Análisis de los componentes principales</h3>
+                            <p class="lead">Este es el método más utilizado. El primer factor se extrae determinando la
+                                varianza máxima. Luego, esta variación se elimina y se reemplaza por el factor. Luego,
+                                el segundo factor se determina por la siguiente varianza más alta y el proceso continúa
+                                hasta que no existan más varianzas.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio section-padding" id="tipos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Tipos de análisis factorial</h2>
+                        <p>
+                            Existen esencialmente dos tipos de análisis factorial: <br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/tipos-1.png" class="img-fluid"
+                                    alt="imagen de analisis factorial exploratorio">
+                            </div>
+                            <h3>Análisis factorial exploratorio:</h3>
+                            <p class="lead">
+                                en el análisis factorial exploratorio, el investigador no hace ninguna suposición sobre
+                                las relaciones previas entre los factores. En este método, cualquier variable puede
+                                estar relacionada con cualquier factor. Esto ayuda a identificar relaciones complejas
+                                entre variables y agruparlas en función de factores comunes.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/tipos-2.jpg" class="img-fluid"
+                                    alt="Imagen de analisis factorial confirmatorio">
+                            </div>
+                            <h3>Análisis factorial confirmatorio:</h3>
+                            <p class="lead">
+                                el análisis factorial confirmatorio, por otro lado, asume que las variables están
+                                relacionadas con factores específicos y utiliza una teoría preestablecida para confirmar
+                                sus expectativas del modelo.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="team section-padding" id="usos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Usos del analisis factorial</h2>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/usos-1.jpg" class="img-fluid rounded-circle" alt="Auto">
+                            <!--Clase para redondear imagen-->
+                            <h3 class="card-title py-2">Industria automotriz</h3>
+                            <p class="card-text">
+                                se podría utilizar un estudio para identificar todas las variables que se aplican a la
+                                toma de decisiones de compra de un automóvil: tamaño, precio, opciones, accesorios y
+                                más.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/usos-2.jpg" class="img-fluid rounded-circle" alt="Cartera empresarial">
+                            <!--Clase para redondear imagen-->
+                            <h3 class="card-title py-2">Inversiones</h3>
+                            <p class="card-text">
+                                La clave para una cartera de inversión productiva es la diversificación. Para garantizar
+                                una cartera diversa, los profesionales de la inversión utilizan el análisis factorial
+                                para predecir el movimiento en un amplio sector de industrias y proporcionar información
+                                sobre los factores que pueden pasar desapercibidos.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/usos-3.webp" class="img-fluid rounded-circle" alt="Recursos humanos">
+                            <!--Clase para redondear imagen-->
+                            <h3 class="card-title py-2">Recursos humanos</h3>
+                            <p class="card-text">
+                                Se pueden comparar y analizar varias variables para ver qué combinación en términos de
+                                número de miembros del equipo, conjuntos variados de habilidades y talento interno o por
+                                contrato funciona, mejorando el funcionamiento general de la organización.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/usos-4.avif" class="img-fluid rounded-circle" alt="Restaurante">
+                            <!--Clase para redondear imagen-->
+                            <h3 class="card-title py-2">Restaurantes
+                            </h3>
+                            <p class="card-text">
+                                Para los restaurantes, el análisis factorial se puede utilizar para comprender la
+                                demografía y los comensales objetivo en la creación de menús. La apertura de un
+                                restaurante de comida rápida junto a un campus universitario tendrá que planificar su
+                                menú de manera diferente que si se ubicara en un lugar comercial de alto nivel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Link del juego</p>
+            <a href="https://quizizz.com/admin/quiz/64f4bfeaa0a9538326d53b69?source=quiz_share">Click</a>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
